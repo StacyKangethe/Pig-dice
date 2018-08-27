@@ -66,10 +66,10 @@ $(document).ready(function() {
     if ((currentTurn.total + currentTurn.player.score) >= 100) {
       if (currentTurn.player == player1) {
           $('#player1-score').text(currentTurn.total + currentTurn.player.score);
-          alert("You are the winner!");
+          alert("Player 1 is the winner!");
       } else if (currentTurn.player == player2) {
           $('#player2-score').text(currentTurn.total + currentTurn.player.score)
-          alert("You are the winner!");
+          alert("Player 2 the winner!");
       };
     };
   });
