@@ -17,3 +17,16 @@ body {
   border-width: thick;
   border-color: green;
 }
+#roll {
+  float: right;
+  padding-right: 5px;
+}
+#hold-turn {
+  float: left;
+}
+button {
+  color: red;
+}
+#newGame {
+  margin-top: 20px;
+}
