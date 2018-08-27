@@ -1,3 +1,19 @@
 h1 {
   text-align: center;
 }
+.container {
+  width: 20%;
+  height: 70%;
+  color: white;
+  background-color: black;
+  border-width: 5px;
+  margin-top: 90px;
+  margin-bottom: 25px;
+}
+body {
+  background-image: url("../images/dice1.jpg");
+}
+#player2 {
+  border-width: thick;
+  border-color: green;
+}
